@@ -11,9 +11,11 @@ git
 
 Install
 =======
+``` sh
 git clone https://github.com/solring/fastVimConfig.git
 cd fastVimConfig
 ./setup.sh
+```
 
 Note
 ====

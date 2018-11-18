@@ -5,6 +5,8 @@ Simple vim & tmux theme setup script including:
 - basic settings (e.g. set line number)
 - other utility plugins 
 
+This also includes a default screen-like .tmux.conf.
+
 Prerequisition
 ==============
 git

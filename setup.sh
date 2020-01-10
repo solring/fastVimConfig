@@ -15,7 +15,7 @@ cd powerline-fonts/
 ./install.sh
 
 # install oh-my-zsh
-if [ -f "/bin/zsh" ]; then
+if [ -f "/bin/zsh" ] || [ -f "/usr/bin/zsh" ]; then
     cd ~
     RUNZSH=no CZSH=no sh <(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)
     cp .zshrc .zshrc_bak

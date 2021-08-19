@@ -79,3 +79,7 @@ let g:airline_symbols.linenr = ''
 " folding
 nnoremap <F9> za
 vnoremap <F9> zf
+
+" SnipMate parser
+let g:snipMate = { 'snippet_version' : 1  }
+
